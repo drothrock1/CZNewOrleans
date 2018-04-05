@@ -1,0 +1,64 @@
+//
+//  Cocktail Zen
+//
+//  Created by Brad on 6/1/10.
+//  Copyright 2010 __Rothrock Group, LLC__. All rights reserved.
+//
+
+
+#import "AppDelegate.h"
+
+@implementation AppDelegate
+
+@synthesize window;
+@synthesize rootTabBarController;
+
+- (void)dealloc
+{
+
+	[rootTabBarController release];
+	[window release];
+	
+    [super dealloc];
+}
+
+- (void)applicationDidFinishLaunching:(UIApplication *)application
+{
+	// add the navigation controller's view to the window
+    //	[window addSubview:navigationController.view];
+	[window addSubview:[rootTabBarController view]];
+	
+    CGRect screenBounds = [[UIScreen mainScreen] bounds];
+    
+    if (screenBounds.size.height == 568) {
+        
+        UIImage *myImage = [UIImage imageNamed:@"InfoScreen-568h.png"];
+        UIImageView *myImageView = [[UIImageView alloc] initWithImage:myImage];
+        
+        
+        [myImageView setFrame:CGRectMake(0, 0, 320, 528)];
+        
+        [window addSubview:myImageView];
+        [window sendSubviewToBack:myImageView];
+        [myImageView release];
+        
+    } else
+        
+    {
+        UIImage *myImage = [UIImage imageNamed:@"InfoScreen.png"];
+        UIImageView *myImageView = [[UIImageView alloc] initWithImage:myImage];
+        
+        
+        [myImageView setFrame:CGRectMake(0, 0, 320, 480)];
+        
+        [window addSubview:myImageView];
+        [window sendSubviewToBack:myImageView];
+        [myImageView release];
+        
+    }
+    
+}
+
+
+@end
+
