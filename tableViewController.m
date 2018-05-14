@@ -39,7 +39,7 @@
     if ([[ver objectAtIndex:0] intValue] >= 7) {
         self.navigationController.navigationBar.barTintColor = [UIColor blackColor];
         self.navigationController.navigationBar.translucent = NO;
-        self.navigationController.navigationBar.titleTextAttributes = @{UITextAttributeTextColor : [UIColor whiteColor]};
+        self.navigationController.navigationBar.titleTextAttributes = @{NSForegroundColorAttributeName : [UIColor whiteColor]};
         self.navigationController.navigationBar.tintColor = [UIColor whiteColor];
     }
     
@@ -53,7 +53,7 @@
     }
 	
 	NSDictionary *row1 = [[NSDictionary alloc] initWithObjectsAndKeys:@"1. Luke", @"Name", @"333 St Charles Street",@"Address",@"nolactable1",@"Image",  nil];
-	NSDictionary *row2 = [[NSDictionary alloc] initWithObjectsAndKeys:@"2. Bar UnCommon", @"Name", @"817 Common Street",@"Address",@"nolactable2",@"Image",  nil];	
+	NSDictionary *row2 = [[NSDictionary alloc] initWithObjectsAndKeys:@"2. Sazerac Bar", @"Name", @"130 Roosevelt Way",@"Address",@"nolactable2",@"Image",  nil];
 	NSDictionary *row3 = [[NSDictionary alloc] initWithObjectsAndKeys:@"3. Arnaud's French 75", @"Name", @"813 Rue Bienville",@"Address",@"nolactable3",@"Image",  nil];	
 	NSDictionary *row4 = [[NSDictionary alloc] initWithObjectsAndKeys:@"4. 21st Amendment", @"Name", @"725 Iberville Street",@"Address",@"nolactable4",@"Image", nil];
 	NSDictionary *row5 = [[NSDictionary alloc] initWithObjectsAndKeys:@"5. Carousel Bar", @"Name", @"214 Royal Street",@"Address",@"nolactable5",@"Image",  nil];

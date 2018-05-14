@@ -11,6 +11,11 @@
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
 		1D60589E0D05DD5A006BFB54 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DC4B2650D05D9C8003A8154 /* CoreFoundation.framework */; };
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		4155CE3B208D179100B78E8C /* nolactable2.png in Resources */ = {isa = PBXBuildFile; fileRef = 4155CE3A208D179000B78E8C /* nolactable2.png */; };
+		4155CE3D208D182200B78E8C /* Roosevelt lobby at Christmas.png in Resources */ = {isa = PBXBuildFile; fileRef = 4155CE3C208D182200B78E8C /* Roosevelt lobby at Christmas.png */; };
+		4155CE41208D1E8400B78E8C /* Sazerac Bar.png in Resources */ = {isa = PBXBuildFile; fileRef = 4155CE40208D1E8400B78E8C /* Sazerac Bar.png */; };
+		4155CE43208D1ED800B78E8C /* nolac2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4155CE42208D1ED800B78E8C /* nolac2.mp3 */; };
+		41D2FF6E207E417B00CFB74C /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41FA71DC207D687F007077B8 /* CoreLocation.framework */; };
 		531F16A70D6367A3003D33FB /* PageTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 531F16970D6367A3003D33FB /* PageTwoViewController.m */; };
 		531F16A80D6367A3003D33FB /* PageOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 531F16980D6367A3003D33FB /* PageOneViewController.m */; };
 		531F16A90D6367A3003D33FB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 531F16990D6367A3003D33FB /* AppDelegate.m */; };
@@ -30,7 +35,6 @@
 		C40683801F180F0700FF97A0 /* Antoine's 1951.png in Resources */ = {isa = PBXBuildFile; fileRef = C406837F1F180F0700FF97A0 /* Antoine's 1951.png */; };
 		C40683821F180F0F00FF97A0 /* Arnaud's French 75.png in Resources */ = {isa = PBXBuildFile; fileRef = C40683811F180F0F00FF97A0 /* Arnaud's French 75.png */; };
 		C40683841F180F1800FF97A0 /* Arnaud's French 75alt.png in Resources */ = {isa = PBXBuildFile; fileRef = C40683831F180F1800FF97A0 /* Arnaud's French 75alt.png */; };
-		C40683861F180F2000FF97A0 /* Bar UnCommon.png in Resources */ = {isa = PBXBuildFile; fileRef = C40683851F180F2000FF97A0 /* Bar UnCommon.png */; };
 		C40683881F180F2800FF97A0 /* Carousel Bar.png in Resources */ = {isa = PBXBuildFile; fileRef = C40683871F180F2800FF97A0 /* Carousel Bar.png */; };
 		C406838A1F180F3000FF97A0 /* Cocktail a la Louisiane.png in Resources */ = {isa = PBXBuildFile; fileRef = C40683891F180F2F00FF97A0 /* Cocktail a la Louisiane.png */; };
 		C406838C1F180F3E00FF97A0 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C406838B1F180F3E00FF97A0 /* Default.png */; };
@@ -58,7 +62,6 @@
 		C40683BE1F18101600FF97A0 /* Napoleon House.png in Resources */ = {isa = PBXBuildFile; fileRef = C40683BD1F18101600FF97A0 /* Napoleon House.png */; };
 		C40683C01F18102300FF97A0 /* Negroni.png in Resources */ = {isa = PBXBuildFile; fileRef = C40683BF1F18102300FF97A0 /* Negroni.png */; };
 		C40683C21F18103000FF97A0 /* Old Fashioned.png in Resources */ = {isa = PBXBuildFile; fileRef = C40683C11F18103000FF97A0 /* Old Fashioned.png */; };
-		C40683C41F18103600FF97A0 /* Pere Marquette Hotel.png in Resources */ = {isa = PBXBuildFile; fileRef = C40683C31F18103600FF97A0 /* Pere Marquette Hotel.png */; };
 		C40683C61F18103D00FF97A0 /* Pimm's No. 1 Cup.png in Resources */ = {isa = PBXBuildFile; fileRef = C40683C51F18103D00FF97A0 /* Pimm's No. 1 Cup.png */; };
 		C40683C81F18104500FF97A0 /* Pirate's Alley Cafe sign.png in Resources */ = {isa = PBXBuildFile; fileRef = C40683C71F18104500FF97A0 /* Pirate's Alley Cafe sign.png */; };
 		C40683CA1F18104C00FF97A0 /* Pirate's Alley Cafe.png in Resources */ = {isa = PBXBuildFile; fileRef = C40683C91F18104C00FF97A0 /* Pirate's Alley Cafe.png */; };
@@ -73,7 +76,6 @@
 		C40683DC1F18109600FF97A0 /* Truman Capote.png in Resources */ = {isa = PBXBuildFile; fileRef = C40683DB1F18109600FF97A0 /* Truman Capote.png */; };
 		C40683DE1F18109D00FF97A0 /* Vieux Carre.png in Resources */ = {isa = PBXBuildFile; fileRef = C40683DD1F18109D00FF97A0 /* Vieux Carre.png */; };
 		C40683E01F18123900FF97A0 /* nolactable1.png in Resources */ = {isa = PBXBuildFile; fileRef = C40683DF1F18123900FF97A0 /* nolactable1.png */; };
-		C40683E41F18124A00FF97A0 /* nolactable2.png in Resources */ = {isa = PBXBuildFile; fileRef = C40683E31F18124A00FF97A0 /* nolactable2.png */; };
 		C40683E61F18125100FF97A0 /* nolactable3.png in Resources */ = {isa = PBXBuildFile; fileRef = C40683E51F18125100FF97A0 /* nolactable3.png */; };
 		C40683E81F18125800FF97A0 /* nolactable4.png in Resources */ = {isa = PBXBuildFile; fileRef = C40683E71F18125800FF97A0 /* nolactable4.png */; };
 		C40683EA1F18125F00FF97A0 /* nolactable5.png in Resources */ = {isa = PBXBuildFile; fileRef = C40683E91F18125F00FF97A0 /* nolactable5.png */; };
@@ -97,15 +99,8 @@
 		C406840E1F18138700FF97A0 /* recipetable11.png in Resources */ = {isa = PBXBuildFile; fileRef = C406840D1F18138700FF97A0 /* recipetable11.png */; };
 		C40684101F18138F00FF97A0 /* recipetable12.png in Resources */ = {isa = PBXBuildFile; fileRef = C406840F1F18138F00FF97A0 /* recipetable12.png */; };
 		C40684121F18139600FF97A0 /* recipetable13.png in Resources */ = {isa = PBXBuildFile; fileRef = C40684111F18139600FF97A0 /* recipetable13.png */; };
-		C40684141F18150D00FF97A0 /* Icon29.png in Resources */ = {isa = PBXBuildFile; fileRef = C40684131F18150D00FF97A0 /* Icon29.png */; };
 		C40684161F18151400FF97A0 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C40684151F18151400FF97A0 /* Icon.png */; };
-		C40684181F18151C00FF97A0 /* Icon58.png in Resources */ = {isa = PBXBuildFile; fileRef = C40684171F18151C00FF97A0 /* Icon58.png */; };
-		C406841A1F18152100FF97A0 /* Icon72.png in Resources */ = {isa = PBXBuildFile; fileRef = C40684191F18152100FF97A0 /* Icon72.png */; };
-		C406841C1F18152800FF97A0 /* Icon80.png in Resources */ = {isa = PBXBuildFile; fileRef = C406841B1F18152800FF97A0 /* Icon80.png */; };
 		C406841E1F18152F00FF97A0 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C406841D1F18152F00FF97A0 /* Icon@2x.png */; };
-		C40684201F18153600FF97A0 /* Icon120.png in Resources */ = {isa = PBXBuildFile; fileRef = C406841F1F18153600FF97A0 /* Icon120.png */; };
-		C40684221F18153C00FF97A0 /* Icon144.png in Resources */ = {isa = PBXBuildFile; fileRef = C40684211F18153C00FF97A0 /* Icon144.png */; };
-		C40684241F18154400FF97A0 /* Icon180.png in Resources */ = {isa = PBXBuildFile; fileRef = C40684231F18154400FF97A0 /* Icon180.png */; };
 		C40684261F18158300FF97A0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C40684251F18158300FF97A0 /* Images.xcassets */; };
 		C42627CF16B098FE00E2BD14 /* PageFourViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C42627CD16B098FE00E2BD14 /* PageFourViewController.xib */; };
 		C42BAF9C11BF316200D9F604 /* infoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C42BAF9B11BF316200D9F604 /* infoViewController.m */; };
@@ -155,9 +150,9 @@
 		C49B5EE016AEE16300C5792F /* recipeNineViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C49B5EDE16AEE16200C5792F /* recipeNineViewController.xib */; };
 		C49B5EE416AEEAE100C5792F /* recipeTenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C49B5EE216AEEAE000C5792F /* recipeTenViewController.m */; };
 		C49B5EE516AEEAE100C5792F /* recipeTenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C49B5EE316AEEAE000C5792F /* recipeTenViewController.xib */; };
-		C49B5EEF16AF41CA00C5792F /* InfoScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = C49B5EEE16AF41C800C5792F /* InfoScreen.png */; };
+		C49B5EEF16AF41CA00C5792F /* InfoScreen480.png in Resources */ = {isa = PBXBuildFile; fileRef = C49B5EEE16AF41C800C5792F /* InfoScreen480.png */; };
 		C49B5EF116AF41D800C5792F /* InfoScreen-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C49B5EF016AF41D700C5792F /* InfoScreen-568h@2x.png */; };
-		C49B5EF316AF41E700C5792F /* InfoScreen@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C49B5EF216AF41E600C5792F /* InfoScreen@2x.png */; };
+		C49B5EF316AF41E700C5792F /* InfoScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = C49B5EF216AF41E600C5792F /* InfoScreen.png */; };
 		C4A5B8E011CC5D2C00BDE06F /* PageEightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4A5B8DE11CC5D2C00BDE06F /* PageEightViewController.m */; };
 		C4A5B8E111CC5D2C00BDE06F /* PageEightViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4A5B8DF11CC5D2C00BDE06F /* PageEightViewController.xib */; };
 		C4A5BA1F11CC70E800BDE06F /* recipeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4A5BA1E11CC70E800BDE06F /* recipeViewController.m */; };
@@ -169,7 +164,6 @@
 		C4AC13CF19CF54D400136E3E /* nolac6.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C4AC13CE19CF54D400136E3E /* nolac6.mp3 */; };
 		C4AC13D119CF54DF00136E3E /* nolac10.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C4AC13D019CF54DF00136E3E /* nolac10.mp3 */; };
 		C4AC13D319CF54E600136E3E /* nolac7.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C4AC13D219CF54E600136E3E /* nolac7.mp3 */; };
-		C4AC13D719CF54F800136E3E /* nolac2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C4AC13D619CF54F800136E3E /* nolac2.mp3 */; };
 		C4AC13DB19CF690E00136E3E /* recipeElevenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4AC13D919CF690E00136E3E /* recipeElevenViewController.m */; };
 		C4AC13DC19CF690E00136E3E /* recipeElevenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4AC13DA19CF690E00136E3E /* recipeElevenViewController.xib */; };
 		C4AC13E019CF693B00136E3E /* recipeTwelveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4AC13DE19CF693B00136E3E /* recipeTwelveViewController.m */; };
@@ -221,6 +215,11 @@
 		1DC4B2650D05D9C8003A8154 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4155CE3A208D179000B78E8C /* nolactable2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nolactable2.png; sourceTree = "<group>"; };
+		4155CE3C208D182200B78E8C /* Roosevelt lobby at Christmas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Roosevelt lobby at Christmas.png"; sourceTree = "<group>"; };
+		4155CE40208D1E8400B78E8C /* Sazerac Bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sazerac Bar.png"; sourceTree = "<group>"; };
+		4155CE42208D1ED800B78E8C /* nolac2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = nolac2.mp3; sourceTree = "<group>"; };
+		41FA71DC207D687F007077B8 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		531F16910D63677B003D33FB /* Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
 		531F16970D6367A3003D33FB /* PageTwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageTwoViewController.m; sourceTree = "<group>"; };
 		531F16980D6367A3003D33FB /* PageOneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageOneViewController.m; sourceTree = "<group>"; };
@@ -249,7 +248,6 @@
 		C406837F1F180F0700FF97A0 /* Antoine's 1951.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Antoine's 1951.png"; sourceTree = "<group>"; };
 		C40683811F180F0F00FF97A0 /* Arnaud's French 75.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Arnaud's French 75.png"; sourceTree = "<group>"; };
 		C40683831F180F1800FF97A0 /* Arnaud's French 75alt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Arnaud's French 75alt.png"; sourceTree = "<group>"; };
-		C40683851F180F2000FF97A0 /* Bar UnCommon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bar UnCommon.png"; sourceTree = "<group>"; };
 		C40683871F180F2800FF97A0 /* Carousel Bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Carousel Bar.png"; sourceTree = "<group>"; };
 		C40683891F180F2F00FF97A0 /* Cocktail a la Louisiane.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Cocktail a la Louisiane.png"; sourceTree = "<group>"; };
 		C406838B1F180F3E00FF97A0 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
@@ -277,7 +275,6 @@
 		C40683BD1F18101600FF97A0 /* Napoleon House.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Napoleon House.png"; sourceTree = "<group>"; };
 		C40683BF1F18102300FF97A0 /* Negroni.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Negroni.png; sourceTree = "<group>"; };
 		C40683C11F18103000FF97A0 /* Old Fashioned.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Old Fashioned.png"; sourceTree = "<group>"; };
-		C40683C31F18103600FF97A0 /* Pere Marquette Hotel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pere Marquette Hotel.png"; sourceTree = "<group>"; };
 		C40683C51F18103D00FF97A0 /* Pimm's No. 1 Cup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pimm's No. 1 Cup.png"; sourceTree = "<group>"; };
 		C40683C71F18104500FF97A0 /* Pirate's Alley Cafe sign.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pirate's Alley Cafe sign.png"; sourceTree = "<group>"; };
 		C40683C91F18104C00FF97A0 /* Pirate's Alley Cafe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pirate's Alley Cafe.png"; sourceTree = "<group>"; };
@@ -292,7 +289,6 @@
 		C40683DB1F18109600FF97A0 /* Truman Capote.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Truman Capote.png"; sourceTree = "<group>"; };
 		C40683DD1F18109D00FF97A0 /* Vieux Carre.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Vieux Carre.png"; sourceTree = "<group>"; };
 		C40683DF1F18123900FF97A0 /* nolactable1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nolactable1.png; sourceTree = "<group>"; };
-		C40683E31F18124A00FF97A0 /* nolactable2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nolactable2.png; sourceTree = "<group>"; };
 		C40683E51F18125100FF97A0 /* nolactable3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nolactable3.png; sourceTree = "<group>"; };
 		C40683E71F18125800FF97A0 /* nolactable4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nolactable4.png; sourceTree = "<group>"; };
 		C40683E91F18125F00FF97A0 /* nolactable5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nolactable5.png; sourceTree = "<group>"; };
@@ -316,15 +312,8 @@
 		C406840D1F18138700FF97A0 /* recipetable11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recipetable11.png; sourceTree = "<group>"; };
 		C406840F1F18138F00FF97A0 /* recipetable12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recipetable12.png; sourceTree = "<group>"; };
 		C40684111F18139600FF97A0 /* recipetable13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recipetable13.png; sourceTree = "<group>"; };
-		C40684131F18150D00FF97A0 /* Icon29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon29.png; sourceTree = "<group>"; };
 		C40684151F18151400FF97A0 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
-		C40684171F18151C00FF97A0 /* Icon58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon58.png; sourceTree = "<group>"; };
-		C40684191F18152100FF97A0 /* Icon72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon72.png; sourceTree = "<group>"; };
-		C406841B1F18152800FF97A0 /* Icon80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon80.png; sourceTree = "<group>"; };
 		C406841D1F18152F00FF97A0 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
-		C406841F1F18153600FF97A0 /* Icon120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon120.png; sourceTree = "<group>"; };
-		C40684211F18153C00FF97A0 /* Icon144.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon144.png; sourceTree = "<group>"; };
-		C40684231F18154400FF97A0 /* Icon180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon180.png; sourceTree = "<group>"; };
 		C40684251F18158300FF97A0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = CocktailZenNewOrleans/Images.xcassets; sourceTree = "<group>"; };
 		C42627CE16B098FE00E2BD14 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PageFourViewController.xib; sourceTree = "<group>"; };
 		C42BAF9A11BF316200D9F604 /* infoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = infoViewController.h; sourceTree = "<group>"; };
@@ -388,9 +377,9 @@
 		C49B5EE116AEEADF00C5792F /* recipeTenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = recipeTenViewController.h; sourceTree = "<group>"; };
 		C49B5EE216AEEAE000C5792F /* recipeTenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = recipeTenViewController.m; sourceTree = "<group>"; };
 		C49B5EE316AEEAE000C5792F /* recipeTenViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = recipeTenViewController.xib; sourceTree = "<group>"; };
-		C49B5EEE16AF41C800C5792F /* InfoScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = InfoScreen.png; sourceTree = "<group>"; };
+		C49B5EEE16AF41C800C5792F /* InfoScreen480.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = InfoScreen480.png; sourceTree = "<group>"; };
 		C49B5EF016AF41D700C5792F /* InfoScreen-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "InfoScreen-568h@2x.png"; sourceTree = "<group>"; };
-		C49B5EF216AF41E600C5792F /* InfoScreen@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "InfoScreen@2x.png"; sourceTree = "<group>"; };
+		C49B5EF216AF41E600C5792F /* InfoScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = InfoScreen.png; sourceTree = "<group>"; };
 		C4A5B8DD11CC5D2C00BDE06F /* PageEightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageEightViewController.h; sourceTree = "<group>"; };
 		C4A5B8DE11CC5D2C00BDE06F /* PageEightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageEightViewController.m; sourceTree = "<group>"; };
 		C4A5B8DF11CC5D2C00BDE06F /* PageEightViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PageEightViewController.xib; sourceTree = "<group>"; };
@@ -404,7 +393,6 @@
 		C4AC13CE19CF54D400136E3E /* nolac6.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = nolac6.mp3; sourceTree = "<group>"; };
 		C4AC13D019CF54DF00136E3E /* nolac10.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = nolac10.mp3; sourceTree = "<group>"; };
 		C4AC13D219CF54E600136E3E /* nolac7.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = nolac7.mp3; sourceTree = "<group>"; };
-		C4AC13D619CF54F800136E3E /* nolac2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = nolac2.mp3; sourceTree = "<group>"; };
 		C4AC13D819CF690E00136E3E /* recipeElevenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = recipeElevenViewController.h; sourceTree = "<group>"; };
 		C4AC13D919CF690E00136E3E /* recipeElevenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = recipeElevenViewController.m; sourceTree = "<group>"; };
 		C4AC13DA19CF690E00136E3E /* recipeElevenViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = recipeElevenViewController.xib; sourceTree = "<group>"; };
@@ -473,6 +461,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41D2FF6E207E417B00CFB74C /* CoreLocation.framework in Frameworks */,
 				1D60589E0D05DD5A006BFB54 /* CoreFoundation.framework in Frameworks */,
 				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
 				1D3623EC0D0F72F000981E51 /* CoreGraphics.framework in Frameworks */,
@@ -523,18 +512,11 @@
 			isa = PBXGroup;
 			children = (
 				C40684251F18158300FF97A0 /* Images.xcassets */,
-				C40684131F18150D00FF97A0 /* Icon29.png */,
 				C40684151F18151400FF97A0 /* Icon.png */,
-				C40684171F18151C00FF97A0 /* Icon58.png */,
-				C40684191F18152100FF97A0 /* Icon72.png */,
-				C406841B1F18152800FF97A0 /* Icon80.png */,
 				C406841D1F18152F00FF97A0 /* Icon@2x.png */,
-				C406841F1F18153600FF97A0 /* Icon120.png */,
-				C40684211F18153C00FF97A0 /* Icon144.png */,
-				C40684231F18154400FF97A0 /* Icon180.png */,
-				C49B5EEE16AF41C800C5792F /* InfoScreen.png */,
+				C49B5EEE16AF41C800C5792F /* InfoScreen480.png */,
 				C49B5EF016AF41D700C5792F /* InfoScreen-568h@2x.png */,
-				C49B5EF216AF41E600C5792F /* InfoScreen@2x.png */,
+				C49B5EF216AF41E600C5792F /* InfoScreen.png */,
 				C406838B1F180F3E00FF97A0 /* Default.png */,
 				C406838D1F180F4500FF97A0 /* Default@2x.png */,
 				C406838F1F180F4D00FF97A0 /* Default-568h@2x.png */,
@@ -558,6 +540,7 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				41FA71DC207D687F007077B8 /* CoreLocation.framework */,
 				C485162C11AE1A7C00549246 /* MapKit.framework */,
 				C485162211AE1A6B00549246 /* AVFoundation.framework */,
 				1D3623EB0D0F72F000981E51 /* CoreGraphics.framework */,
@@ -656,7 +639,7 @@
 			isa = PBXGroup;
 			children = (
 				C49B5ED616AEDA1C00C5792F /* nola1.mp3 */,
-				C4AC13D619CF54F800136E3E /* nolac2.mp3 */,
+				4155CE42208D1ED800B78E8C /* nolac2.mp3 */,
 				C4AC13C419CF54A800136E3E /* nolac3.mp3 */,
 				C4AC13C019CF549800136E3E /* nolac4.mp3 */,
 				C4AC13C219CF54A000136E3E /* nolac5.mp3 */,
@@ -729,7 +712,7 @@
 			isa = PBXGroup;
 			children = (
 				C40683DF1F18123900FF97A0 /* nolactable1.png */,
-				C40683E31F18124A00FF97A0 /* nolactable2.png */,
+				4155CE3A208D179000B78E8C /* nolactable2.png */,
 				C40683E51F18125100FF97A0 /* nolactable3.png */,
 				C40683E71F18125800FF97A0 /* nolactable4.png */,
 				C40683E91F18125F00FF97A0 /* nolactable5.png */,
@@ -855,7 +838,6 @@
 				C406837F1F180F0700FF97A0 /* Antoine's 1951.png */,
 				C40683811F180F0F00FF97A0 /* Arnaud's French 75.png */,
 				C40683831F180F1800FF97A0 /* Arnaud's French 75alt.png */,
-				C40683851F180F2000FF97A0 /* Bar UnCommon.png */,
 				C40683871F180F2800FF97A0 /* Carousel Bar.png */,
 				C40683891F180F2F00FF97A0 /* Cocktail a la Louisiane.png */,
 				C40683911F180F5600FF97A0 /* French 75 napkin.png */,
@@ -883,7 +865,6 @@
 				C40683BD1F18101600FF97A0 /* Napoleon House.png */,
 				C40683BF1F18102300FF97A0 /* Negroni.png */,
 				C40683C11F18103000FF97A0 /* Old Fashioned.png */,
-				C40683C31F18103600FF97A0 /* Pere Marquette Hotel.png */,
 				C40683C51F18103D00FF97A0 /* Pimm's No. 1 Cup.png */,
 				C40683C71F18104500FF97A0 /* Pirate's Alley Cafe sign.png */,
 				C40683C91F18104C00FF97A0 /* Pirate's Alley Cafe.png */,
@@ -891,6 +872,8 @@
 				C40683CD1F18105C00FF97A0 /* Prohibition end.png */,
 				C40683CF1F18106400FF97A0 /* Ramos Gin Fizz.png */,
 				C40683D11F18106C00FF97A0 /* Raoul Lufbery.png */,
+				4155CE3C208D182200B78E8C /* Roosevelt lobby at Christmas.png */,
+				4155CE40208D1E8400B78E8C /* Sazerac Bar.png */,
 				C40683D31F18107600FF97A0 /* Sazerac.png */,
 				C40683D51F18107F00FF97A0 /* SoBou sign.png */,
 				C40683D71F18108600FF97A0 /* SoBou.png */,
@@ -928,10 +911,16 @@
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0510;
+				LastUpgradeCheck = 0930;
 				TargetAttributes = {
 					1D6058900D05DD3D006BFB54 = {
 						DevelopmentTeam = 5G4385EGEP;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -964,6 +953,7 @@
 				C40684041F18135B00FF97A0 /* recipetable6.png in Resources */,
 				537204D50DC28C260048CDA2 /* PageFiveViewController.xib in Resources */,
 				C4C32DA81F1D4EF400E5C183 /* Luke bar.png in Resources */,
+				4155CE43208D1ED800B78E8C /* nolac2.mp3 in Resources */,
 				537204D70DC28C260048CDA2 /* MainWindow.xib in Resources */,
 				537204D80DC28C260048CDA2 /* PageOneViewController.xib in Resources */,
 				537204D90DC28C260048CDA2 /* PageTwoViewController.xib in Resources */,
@@ -973,7 +963,6 @@
 				537204DF0DC28C310048CDA2 /* InfoPlist.strings in Resources */,
 				C4C32DA41F1D4E8000E5C183 /* 21st Amendment.png in Resources */,
 				C40683F21F18128000FF97A0 /* nolactable9.png in Resources */,
-				C40684201F18153600FF97A0 /* Icon120.png in Resources */,
 				C485173B11AF5C7900549246 /* PinDRed1.png in Resources */,
 				C485173C11AF5C7900549246 /* PinDRed2.png in Resources */,
 				C485173D11AF5C7900549246 /* PinDRed3.png in Resources */,
@@ -1000,7 +989,6 @@
 				C42BAFA911BF363000D9F604 /* TipsViewController.xib in Resources */,
 				C42BAFAE11BF363D00D9F604 /* DirectionsViewController.xib in Resources */,
 				C42BAFB311BF364900D9F604 /* HelpViewController.xib in Resources */,
-				C40684241F18154400FF97A0 /* Icon180.png in Resources */,
 				C4C32DAA1F1D4EFD00E5C183 /* Luke.png in Resources */,
 				C406839C1F180F7E00FF97A0 /* Hermes Bar.png in Resources */,
 				C42BAFB811BF365400D9F604 /* AboutViewController.xib in Resources */,
@@ -1012,7 +1000,6 @@
 				C40683DE1F18109D00FF97A0 /* Vieux Carre.png in Resources */,
 				C4A5B8E111CC5D2C00BDE06F /* PageEightViewController.xib in Resources */,
 				C40683941F180F5D00FF97A0 /* French 75.png in Resources */,
-				C406841A1F18152100FF97A0 /* Icon72.png in Resources */,
 				C40684261F18158300FF97A0 /* Images.xcassets in Resources */,
 				C40683CA1F18104C00FF97A0 /* Pirate's Alley Cafe.png in Resources */,
 				C40683CE1F18105C00FF97A0 /* Prohibition end.png in Resources */,
@@ -1020,18 +1007,15 @@
 				C40683BA1F18100800FF97A0 /* Napoleon House courtyard.png in Resources */,
 				C40683881F180F2800FF97A0 /* Carousel Bar.png in Resources */,
 				C430CB4819CCC0B900675198 /* PinDRed12.png in Resources */,
-				C40684221F18153C00FF97A0 /* Icon144.png in Resources */,
 				C4AC13F019CF98D300136E3E /* PageTwelveViewController.xib in Resources */,
 				C4C32D9E1F1ABB9800E5C183 /* nolac12.mp3 in Resources */,
 				C430CAFA19C8DC1100675198 /* back12.png in Resources */,
 				C406838E1F180F4500FF97A0 /* Default@2x.png in Resources */,
-				C40683E41F18124A00FF97A0 /* nolactable2.png in Resources */,
 				C40683921F180F5600FF97A0 /* French 75 napkin.png in Resources */,
 				C40683E81F18125800FF97A0 /* nolactable4.png in Resources */,
 				C40683BC1F18100F00FF97A0 /* Napoleon House, 1934.png in Resources */,
 				C4AC13D319CF54E600136E3E /* nolac7.mp3 in Resources */,
 				C40683D21F18106C00FF97A0 /* Raoul Lufbery.png in Resources */,
-				C40683C41F18103600FF97A0 /* Pere Marquette Hotel.png in Resources */,
 				C40683F61F18128D00FF97A0 /* nolactable11.png in Resources */,
 				C406839A1F180F7600FF97A0 /* Harry Connick, Jr.png in Resources */,
 				C406839E1F180F8600FF97A0 /* Hermes interior.png in Resources */,
@@ -1041,6 +1025,7 @@
 				C4C178F311D97BC000F95583 /* recipeTwoViewController.xib in Resources */,
 				C4C178F811D97BCC00F95583 /* recipeThreeViewController.xib in Resources */,
 				C403F0551F2118DA004028F3 /* The Goody.png in Resources */,
+				4155CE3B208D179100B78E8C /* nolactable2.png in Resources */,
 				C40684061F18136600FF97A0 /* recipetable7.png in Resources */,
 				C40683901F180F4D00FF97A0 /* Default-568h@2x.png in Resources */,
 				C4C178FD11D97BD700F95583 /* recipeFourViewController.xib in Resources */,
@@ -1053,7 +1038,6 @@
 				C4C1790711D97BF300F95583 /* recipeSixViewController.xib in Resources */,
 				C40683B81F18100000FF97A0 /* Napoleon at Saint Helena.png in Resources */,
 				C4C1790C11D97BFD00F95583 /* recipeSevenViewController.xib in Resources */,
-				C406841C1F18152800FF97A0 /* Icon80.png in Resources */,
 				C4C1791111D97C0700F95583 /* recipeEightViewController.xib in Resources */,
 				C406838A1F180F3000FF97A0 /* Cocktail a la Louisiane.png in Resources */,
 				C40683F81F18129300FF97A0 /* nolactable12.png in Resources */,
@@ -1063,9 +1047,9 @@
 				C4C17A3711E17D4500F95583 /* RecipeIcon10.png in Resources */,
 				C40683C81F18104500FF97A0 /* Pirate's Alley Cafe sign.png in Resources */,
 				C40683FE1F18134700FF97A0 /* recipetable3.png in Resources */,
+				4155CE41208D1E8400B78E8C /* Sazerac Bar.png in Resources */,
 				C40683C01F18102300FF97A0 /* Negroni.png in Resources */,
 				C40683841F180F1800FF97A0 /* Arnaud's French 75alt.png in Resources */,
-				C40683861F180F2000FF97A0 /* Bar UnCommon.png in Resources */,
 				C406840E1F18138700FF97A0 /* recipetable11.png in Resources */,
 				C40683801F180F0700FF97A0 /* Antoine's 1951.png in Resources */,
 				C40683E61F18125100FF97A0 /* nolactable3.png in Resources */,
@@ -1089,20 +1073,19 @@
 				C49B5EE016AEE16300C5792F /* recipeNineViewController.xib in Resources */,
 				C49B5EE516AEEAE100C5792F /* recipeTenViewController.xib in Resources */,
 				C40683981F180F6F00FF97A0 /* Gov. Huey Long.png in Resources */,
-				C40684181F18151C00FF97A0 /* Icon58.png in Resources */,
-				C40684141F18150D00FF97A0 /* Icon29.png in Resources */,
-				C49B5EEF16AF41CA00C5792F /* InfoScreen.png in Resources */,
+				C49B5EEF16AF41CA00C5792F /* InfoScreen480.png in Resources */,
 				C4AC13C119CF549800136E3E /* nolac4.mp3 in Resources */,
 				C40683EC1F18126700FF97A0 /* nolactable6.png in Resources */,
 				C40684161F18151400FF97A0 /* Icon.png in Resources */,
 				C49B5EF116AF41D800C5792F /* InfoScreen-568h@2x.png in Resources */,
+				4155CE3D208D182200B78E8C /* Roosevelt lobby at Christmas.png in Resources */,
 				C40683B41F180FF300FF97A0 /* Muriel's Seance Lounge.png in Resources */,
 				C40683AC1F180FD400FF97A0 /* Maison Bourbon.png in Resources */,
 				C40683DA1F18108D00FF97A0 /* St Charles Streetcar.png in Resources */,
 				C4AC13E619CF695900136E3E /* recipeThirteenViewController.xib in Resources */,
 				C40683D81F18108600FF97A0 /* SoBou.png in Resources */,
 				C40683821F180F0F00FF97A0 /* Arnaud's French 75.png in Resources */,
-				C49B5EF316AF41E700C5792F /* InfoScreen@2x.png in Resources */,
+				C49B5EF316AF41E700C5792F /* InfoScreen.png in Resources */,
 				C406840C1F18138000FF97A0 /* recipetable10.png in Resources */,
 				C4AC13C319CF54A000136E3E /* nolac5.mp3 in Resources */,
 				C4AC13CF19CF54D400136E3E /* nolac6.mp3 in Resources */,
@@ -1114,7 +1097,6 @@
 				C406838C1F180F3E00FF97A0 /* Default.png in Resources */,
 				C406837E1F180F0000FF97A0 /* Absinthe Frappe.png in Resources */,
 				C40683B21F180FEB00FF97A0 /* Muriel's balcony.png in Resources */,
-				C4AC13D719CF54F800136E3E /* nolac2.mp3 in Resources */,
 				C4AC13C519CF54A800136E3E /* nolac3.mp3 in Resources */,
 				C40683BE1F18101600FF97A0 /* Napoleon House.png in Resources */,
 				C4DBDD0F16B062BA00778D6B /* nolac9.mp3 in Resources */,
@@ -1248,20 +1230,26 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Bradley Rothrock (C6RC253926)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Bradley Rothrock (C6RC253926)";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Prefix.pch;
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = /Applications;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.intownadverture.cocktailzenneworleans;
 				PRODUCT_NAME = CocktailZenNewOrleans;
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -1271,18 +1259,24 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Bradley Rothrock (C6RC253926)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Bradley Rothrock (C6RC253926)";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Prefix.pch;
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = /Applications;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.intownadverture.cocktailzenneworleans;
 				PRODUCT_NAME = CocktailZenNewOrleans;
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -1291,11 +1285,37 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Bradley Rothrock (C6RC253926)";
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = CocktaiZenNewOrleans;
 				PROVISIONING_PROFILE = "";
@@ -1307,11 +1327,36 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Bradley Rothrock (C6RC253926)";
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 			};
@@ -1321,12 +1366,37 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Bradley Rothrock (C6RC253926)";
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_RESOURCE_RULES_PATH = "";
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				PRODUCT_NAME = CocktailZenNewOrleans;
 				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
@@ -1338,18 +1408,24 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Bradley Rothrock (C6RC253926)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Bradley Rothrock (C6RC253926)";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Prefix.pch;
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = /Applications;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.intownadverture.cocktailzenneworleans;
 				PRODUCT_NAME = CocktailZenNewOrleans;
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Distribution;

@@ -38,14 +38,14 @@
     if ([[ver objectAtIndex:0] intValue] >= 7) {
         self.navigationController.navigationBar.barTintColor = [UIColor blackColor];
         self.navigationController.navigationBar.translucent = NO;
-        self.navigationController.navigationBar.titleTextAttributes = @{UITextAttributeTextColor : [UIColor whiteColor]};
+        self.navigationController.navigationBar.titleTextAttributes = @{NSForegroundColorAttributeName : [UIColor whiteColor]};
         self.navigationController.navigationBar.tintColor = [UIColor whiteColor];
     }
 
 	
 	NSDictionary *row1 = [[NSDictionary alloc] initWithObjectsAndKeys:@"Vieux Carre", @"Name", @"Carousel Bar and Lounge",@"Address",@"recipetable1",@"Image", nil];
 	NSDictionary *row2 = [[NSDictionary alloc] initWithObjectsAndKeys:@"The Goody", @"Name", @"Carousel Bar and Lounge",@"Address",@"recipetable2",@"Image",  nil];	
-	NSDictionary *row3 = [[NSDictionary alloc] initWithObjectsAndKeys:@"Ramos Gin Fizz", @"Name", @"Bar UnCommon",@"Address",@"recipetable3",@"Image",  nil];	
+	NSDictionary *row3 = [[NSDictionary alloc] initWithObjectsAndKeys:@"Ramos Gin Fizz", @"Name", @"Sazerac Bar",@"Address",@"recipetable3",@"Image",  nil];
 	NSDictionary *row4 = [[NSDictionary alloc] initWithObjectsAndKeys:@"French 75", @"Name", @"Arnaud's French 75",@"Address",@"recipetable4",@"Image",  nil];	
 	NSDictionary *row5 = [[NSDictionary alloc] initWithObjectsAndKeys:@"Pimm's No. 1 Cup", @"Name", @"Napolean House",@"Address",@"recipetable5",@"Image",  nil];	
 	NSDictionary *row6 = [[NSDictionary alloc] initWithObjectsAndKeys:@"Sazerac", @"Name", @"Muriel's",@"Address",@"recipetable6",@"Image",  nil];	
